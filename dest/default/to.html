@@ -6,15 +6,17 @@
             name="viewport"
             content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="referrer" content="origin">
-    <title>First</title>
+    <title>To</title>
 </head>
 <body>
-    Hello world
-    <ul>
-        <li>
-            <a href="/default/from.html">default 301 redirect</a>
-        </li>
-    </ul>
+    This page is has been redirected from "from.html"
+    <div>
+        document.referrer is "<div id="referrerValue">
+
+        </div>"
+    </div>
+    <script>
+        document.getElementById('referrerValue').innerText = document.referrer;
+    </script>
 </body>
 </html>
