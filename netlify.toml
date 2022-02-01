@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/default/from.html"
+  to = "/default/to.html"
+  status = 301
